@@ -1,0 +1,27 @@
+//functions declaration 
+function add(a, b) {
+    return a + b
+}
+
+var res = add(56, 11)
+console.log(res)
+
+const mul = function (x, y) {
+    return x * y
+}
+
+console.log(mul(2, 55))
+
+//fat arrow funtion
+const sub = (a, b) => {
+    return a - b
+}
+console.log(sub(22, 55))
+
+//function with rest parameters
+const sum = (num,...moreNums) => {
+    console.log(num)
+    console.log(moreNums)
+}
+
+sum(5,55,22,688,99,65,22)
