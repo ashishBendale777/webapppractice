@@ -6,7 +6,7 @@ const BankSystem = {
     },
 
     withdraw: function (accNo) {
-        this.Account.pop()
+        var filterdata = BankSystem.filter((Accounts => ac))
 
     },
     deposite: function (accNo, amount) {
@@ -18,6 +18,10 @@ const BankSystem = {
         const accData = this.Accounts.find((acc) => acc.AccNo == accNo)
         console.log(accData.AccBalance)
     },
+
+    delfunction: function (accno) {
+        this.Accounts = this.Accounts.filter((Account) => Account.AccNo != accno)
+    }
 }
 
 
@@ -32,8 +36,17 @@ BankSystem.addAccount({
     AccName: "Pawan",
     AccBalance: 600
 })
+BankSystem.addAccount({
+    AccNo: 3,
+    AccName: "Pawan",
+    AccBalance: 600
+})
+
 
 console.table(BankSystem.Accounts);
 BankSystem.chekBalance(1)
-BankSystem.deposite(1,6600)
+BankSystem.deposite(1, 6600)
 BankSystem.chekBalance(1)
+BankSystem.delfunction(2)
+console.table(BankSystem.Accounts)
+
