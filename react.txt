@@ -1,0 +1,30 @@
+
+Session 1:ReactJS Basics
+What is ReactJs?
+What is SPA(Single Page Application)
+React Virtual DOM
+
+Session 2:ReactJS Components
+Creating React Component
+React component life-cycle
+React Component props
+Update React component
+
+Session 3:Styling React Component
+react-bootstrap component library
+Components:Containers, Row, Col, Button, Form, Modal, 
+Toast, Carousel etc
+CSS Styling: css-grid, css-flex, css-positions 
+
+Session 4:ReactJS Hooks
+What is React Hooks?
+Use of React Hooks?
+useState(), useEffect(), userRef()
+useContext(), useMemo()
+
+Session 5: ReactJs Routing
+Introduction to react-router-dom library
+Use of BrowserRouter, Routes and Route 
+Use of Routing Hooks: useParams() useLocation() etc
+
+
