@@ -7,7 +7,7 @@ const mProm = new Promise((resolve, reject) => {
         reject(new Error("Not FOund"))
     }
 })
-mProm
-    .then((data) => console.log("Data", data))
+
+mProm.then((data) => console.log("Data", data))
     .catch((err) => console.log(err))
     .finally(() => console.log("Settled"))

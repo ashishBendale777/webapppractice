@@ -1,3 +1,4 @@
+
 var stdArr = [
     {
         stdid: 1,
@@ -34,6 +35,7 @@ stdArr.pop()
 stdArr.pop()
 
 console.log(stdArr.length)
+console.table(stdArr)
 
 console.table(stdArr.find((std) => std.stdid == 1))
 console.log(stdArr.findIndex((std) => std.stdid == 3))

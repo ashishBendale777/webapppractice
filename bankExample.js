@@ -7,7 +7,6 @@ const BankSystem = {
 
     withdraw: function (accNo) {
         var filterdata = BankSystem.filter((Accounts => ac))
-
     },
     deposite: function (accNo, amount) {
         const accData = this.Accounts.find((acc) => acc.AccNo == accNo)
